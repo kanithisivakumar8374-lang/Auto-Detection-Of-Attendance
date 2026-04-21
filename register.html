@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Register Student</title>
+
+<style>
+
+body{
+font-family:Arial;
+text-align:center;
+background:#f5f7fa;
+}
+
+.box{
+background:white;
+padding:30px;
+width:350px;
+margin:auto;
+margin-top:100px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+h2{
+margin-bottom:20px;
+}
+
+input{
+width:90%;
+padding:10px;
+margin:10px 0;
+border:1px solid #ccc;
+border-radius:5px;
+font-size:14px;
+}
+
+input:focus{
+border-color:#007BFF;
+outline:none;
+}
+
+button{
+background:#007BFF;
+color:white;
+border:none;
+padding:10px 20px;
+border-radius:5px;
+cursor:pointer;
+font-size:16px;
+margin-top:10px;
+}
+
+button:hover{
+background:#0056b3;
+}
+
+.back{
+display:inline-block;
+margin-top:15px;
+text-decoration:none;
+color:#333;
+font-size:14px;
+}
+
+.back:hover{
+text-decoration:underline;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="box">
+
+<h2>Register Student</h2>
+
+<form action="/capture" method="POST">
+
+<input type="text" name="name" placeholder="Enter Student Name" required>
+
+<input type="text" name="roll" placeholder="Enter Roll Number" required>
+
+<button type="submit">Capture Face</button>
+
+</form>
+
+<a href="/" class="back">← Back to Home</a>
+
+</div>
+
+</body>
+
+</html>
